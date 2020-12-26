@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Login Form</h1>
+</body>
+    <!-- input = data = information -->
+    <form action="#">
+        <p>
+            Username : <br> <input type="text" name="username"  size="15" maxlength="18" value="admin"  id="">
+        </p>
+        <p>
+            Password : <br>  <input type="password" name="pwd" placeholder="Enter Password" id="">
+        </p>
+
+        <p>
+            <input type="submit" name="login-button" value="Send">
+        </p>
+    </form>
+    <!--
+        When you fill form and press sumbit button it's FORM fields and the form value convert to query string format and appended in url bar ..
+
+        Like this
+        http://127.0.0.1:5500/TamilDeveloper/Basics/forms20.html?username=Cyber-Nishanth&pwd=1234&login-button=Send#
+
+        It's too danger 
+    -->
+</html>

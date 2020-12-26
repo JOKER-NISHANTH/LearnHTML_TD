@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+</head>
+<body>
+    <h1>Contact Form</h1>
+
+    <form method="GET" action="">
+        <p>
+            Name : <br>
+            <input type="text" name="username" size="20" maxlength="22">
+        </p>
+        <p>
+            Email : <br>
+            <input type="email" name="email_id" id="">
+        </p>
+        <p>
+            Subject : <br>
+            <input type="text" name="subject" >
+        </p>
+        <p>
+            <!-- default value for checked -->
+            Is this a <br>
+            <input type="radio" name="request_type" value="sales" id=""> Sales Request
+            <input type="radio" name="request_type" value="support" checked="checked" id=""> Support Request
+        </p>
+        <p>
+            Message : <br>
+            <textarea name="msg" id="" cols="20" rows="5" placeholder="Enter your message "></textarea>
+        </p>
+        <p>
+            <input type="submit" value="Send Message" name="contact_form">
+        </p>
+    </form>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form </title>
+</head>
+<body>
+    <form action="">
+
+    <h1>Contact Form</h1>
+    <p>
+        <label for="usrname">Name:</label><br>
+        <input type="text" name="username" id="usrname">
+    </p>
+    <p>
+        <label for="e_id">Email:</label> <br>
+        <input type="email" name="email-id" id="e_id">
+    </p>
+    <p>
+        <label for="sub"> Subject :</label> <br>
+        <input type="text" name="subject" id="sub">
+    </p>
+    <p>
+        <!-- for is used to link the label and form fields -->
+        <!-- name = karathu form sumbit pannapothu server ikku pora value oda paaru
+        id = karathu that field ah browser la identify pandra name-->
+        I went to learn first <br>
+        <input type="radio" name="learn_first" value="html" checked id="html5"> <label for="html5">HTML</label> <br>
+        <input type="radio" name="learn_first" value="CSS" id="css3"> <label for="css3"> CSS </label> <br>
+        <input type="radio" name="learn_first" value="JavaScript" id="js">  <label for="js">JavaScript</label>
+    </p>
+    <p>
+        <label for="mgs_id"> Message</label> : <br>
+        <textarea name="msg" id="mgs_id" cols="20" rows="8" placeholder="Enter the message" ></textarea>
+    </p>
+    <p>
+        <input type="submit" name="sub_btn" value="Send">
+    </p>
+    </form>
+</body>
+</html>

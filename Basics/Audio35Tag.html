@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Tag</title>
+</head>
+<body>
+    <h1>Playing Audio</h1>
+    <h2>Audio file in single format</h2>
+    <!-- controls used to control the audio file play and pause -->
+    <audio src="file_path" controls> Call back Message </audio>
+
+
+    <!-- This support all browser -->
+    <h2>Audio file in Muliple formats</h2>
+    <audio controls>
+        <!-- type = MIME type=>  MIME = Multipurpose Internet Mail Extensions -->
+        <source src="file_path" type="audio/wav">
+        <source src="file_path" type="audio/mp3">
+        <source src="file_path" type="audio/m4a">
+        <source src="file_path" type="audio/ogg">
+    </audio>
+</body>
+</html>

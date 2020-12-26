@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validiation</title>
+</head>
+<body>
+    <h1>HTML Form Fields and Validation</h1>
+    <form action="" method="post">
+        <!-- input type email -->
+        <p>
+            <label for="email_id"></label>Email : </label> <br>
+            <input type="email" name="email" id="email_id" > <br>
+        </p>
+        <!-- input type number -->
+        <p>
+            <label for="age_id">Age : </label> <br>
+            <input type="number" name="age" id="age_id" min="18" max="99" > <br>
+        </p>
+        <!-- input type date -->
+        <p>
+            <label for="dob_id">Date of Birth : </label><br>
+            <input type="date" name="dob" id="dob_id" required>
+        </p>
+        <!-- input type range -->
+        <p>
+            <label for="price_id">Price Range : </label> <br>
+            <input type="range" name="price" id="price_id" min="0" max="100" step="10"> <br>
+        </p>
+        <!-- input type url -->
+        <p>
+            <label for="website_id">Website : </label> <br>
+            <input type="url" name="website" id="website_id"> <br>
+        </p>
+        <!-- input type time -->
+        <p>
+            <label for="time_id">Raising Time : </label> <br>
+            <input type="time" name="rtime" id="time_id">
+        </p>
+        <!-- input type week -->
+        <p>
+            <label for="week_id">Vocation Week : </label> <br>
+            <input type="week" name="vweek" id="week_id"> <br>
+        </p>
+        <p>
+            <label for="search_id">Search Box : </label> <br>
+            <input type="search" name="job_search" id="search_id"> <br>
+        </p>
+
+        <p>
+            <input type="submit" value="Sumbit">
+        </p>
+    </form>
+</body>
+</html>

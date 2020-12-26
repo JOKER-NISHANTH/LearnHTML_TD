@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Login Form</h1>
+</body>
+    <!-- How to send a form details to server ?
+        Two methods avaiable
+        1.GET it's values and field convert to query string and passed to server
+        2.POST it's send hidden type
+    -->
+    <form method="POST" action="#">
+        <p>
+            Username : <br> <input type="text" name="username"  size="15" maxlength="18" value="admin"  id="">
+        </p>
+        <p>
+            Password : <br>  <input type="password" name="pwd" placeholder="Enter Password" id="">
+        </p>
+
+        <p>
+            <input type="submit" name="login-button" value="Send">
+        </p>
+    </form>
+</html>
